@@ -1,0 +1,63 @@
+#navbar{
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  background-color: rgba(190, 196, 214, 0.6);
+}
+  #navbar header{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Fjalla One';
+    font-size: 40px;
+    background-color: #673ab7;
+  }
+    #navbar li{
+      list-style: none;
+    }
+      #navbar a{
+        display: block;
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration: none;
+        cursor: pointer;
+        padding: 10px 20px;
+      }
+        #navbar ul{
+          height: 80%;
+          padding: 0;
+          overflow-x: hidden;
+          overflow-y: auto;
+          font-family: "Fjalla One";
+        }
+#main-doc{
+  position: inherit;
+  margin-left: 320px;
+  padding: 10px;
+  margin-bottom: 120px;
+}
+  #main-doc h2{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Fjalla One";
+  }
+    #main-doc p{
+      color: rgba(0, 0, 0, 0.7);
+      font-family: 'Libre Baskerville';
+    }
+      #main-doc li{
+        color: rgba(0, 0, 0, 0.7);
+        font-family: 'Libre Baskerville';
+      }
+        #main-doc code{
+          background-color: rgba(190, 190, 200, 0.8);
+          color: black;
+          font-family: 'Space Mono';
+        }
+
+body{
+  background-color: rgb(190, 196, 214);
+}
